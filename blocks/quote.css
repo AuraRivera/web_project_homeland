@@ -1,0 +1,10 @@
+.quote {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.quote-footer {
+  margin-top: 8px;
+  display: block;
+  text-align: right;
+}
