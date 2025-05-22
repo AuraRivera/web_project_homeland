@@ -1,3 +1,16 @@
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    /*padding?*/
+  }
+
+  .container__image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
 .container {
   width: 80%;
   max-width: 1024px;
@@ -9,14 +22,37 @@
 
   /*max-width: 60%;*/
 }
-.container-text {
+
+.container__image {
+  width: 100%;
+  /*max-width: 100%;*/
+  height: auto;
+  display: block;
+}
+.container__text {
   max-width: 830px;
   margin-top: 32px;
   margin-left: 0;
 }
 
-.container-title {
+.container__title {
   font-size: 54px;
   line-height: 58px;
   margin-bottom: 12px;
+}
+
+.container__qoute {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.container__footer {
+  margin-top: 8px;
+  display: block;
+  text-align: right;
+}
+
+.container__description {
+  font-size: 16px;
+  line-height: 163%;
+  text-align: justify;
 }
