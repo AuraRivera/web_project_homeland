@@ -1,37 +1,21 @@
-@media (max-width: 768px) {
-  .container {
-    width: 100%;
-    /*padding?*/
-  }
-
-  .container__image {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-}
-
 .container {
-  width: 80%;
   max-width: 1024px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
   gap: 32px;
   padding: 0 16px;
-
-  /*max-width: 60%;*/
+  border: 2px dashed red;
 }
 
 .container__image {
   width: 100%;
-  /*max-width: 100%;*/
   height: auto;
   display: block;
+  border: 2px solid blue;
 }
+
 .container__text {
   max-width: 830px;
-  margin-top: 32px;
+  margin-top: 20px;
   margin-left: 0;
 }
 
@@ -54,5 +38,4 @@
 .container__description {
   font-size: 16px;
   line-height: 163%;
-  text-align: justify;
 }
