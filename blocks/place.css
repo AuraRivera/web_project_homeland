@@ -1,0 +1,77 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto 1fr;
+  color: white;
+  margin: auto;
+  max-width: 1000px;
+  gap: 30px;
+}
+
+.place__title {
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+}
+
+.place__subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 12px;
+  line-height: 100%;
+}
+
+.place__subtitle-profession {
+  color: hsla(0, 0%, 67%, 1);
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 20px;
+}
+
+.place__image {
+}
+
+.place__image-mycity {
+  width: 100%;
+}
+
+.place__paragraphs {
+  grid-row: 2/4;
+  grid-column: 2;
+}
+
+.place__paragraph {
+  font-size: 18px;
+  line-height: 163%;
+}
+
+.place__button {
+  background: linear-gradient(90deg, #0278fe 0.56%, #003a7b 100%);
+  color: white;
+  width: 289px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 544px) {
+  .place {
+    display: block;
+    padding: 16px;
+  }
+
+  .place__image,
+  .place__image-mycity {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 16px;
+  }
+}
