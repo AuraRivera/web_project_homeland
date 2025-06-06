@@ -11,6 +11,13 @@
   display: block;
   width: 100%; /*ajustarlo a mi necesidad*/
   height: auto;
+  box-shadow: 5px 5px 10px 0px hsla(0, 0%, 0%, 0.25);
+  transition: background-color 0.3s;
+}
+
+.photo-grid:hover {
+  background-color: hsla(0, 0%, 0%, 0.5);
+  mix-blend-mode: multiply;
 }
 
 /* Pantallas grandes (1280px o más) → 4 columnas */
